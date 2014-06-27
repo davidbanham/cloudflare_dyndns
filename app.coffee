@@ -30,7 +30,7 @@ request.get 'http://jsonip.com', (err, res, body) ->
         z: process.env.CLOUDFLARE_ROOT_DOMAIN
         type: 'A'
         content: ip
-        service_mode: 1
+        service_mode: 0
         ttl: 120
         name: process.env.CLOUDFLARE_SUBDOMAIN
     , (err, res, body) ->
