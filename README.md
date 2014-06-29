@@ -1,4 +1,4 @@
-This script updates Cloudflare with the IP address of the machine it's running on.
+This script updates Cloudflare with the web-accessible IP address of the machine it's running on (as returned by jsonip.com).
 
 This is intended to give you a thing like no-ip or dyndns, except using your cloudflare account.
 
