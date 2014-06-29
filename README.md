@@ -17,5 +17,3 @@ There is also a version in go, with binaries for most every platform. If you don
     CLOUDFLARE_SUBDOMAIN=home \
     CLOUDFLARE_ROOT_DOMAIN=example.com \
     ./build/app-darwin-amd64
-
-Also, the Cloudflare API is total balls. FYI.
